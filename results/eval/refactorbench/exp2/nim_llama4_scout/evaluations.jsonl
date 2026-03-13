@@ -1,0 +1,5 @@
+{"task_id": "rb_ansible_refactor_add-log-parameter-get-group-vars", "condition": "nim_llama4_scout", "success": false, "eval_status": "skipped_no_output"}
+{"task_id": "rb_ansible_refactor_add-log-parameter-is-systemd-managed", "condition": "nim_llama4_scout", "success": false, "eval_status": "skipped_no_output"}
+{"task_id": "rb_ansible_refactor_combine-namespace-compat", "condition": "nim_llama4_scout", "success": false, "eval_status": "skipped_no_output"}
+{"task_id": "rb_ansible_refactor_data-to-inventory-data", "condition": "nim_llama4_scout", "success": false, "eval_status": "skipped_no_output"}
+{"task_id": "rb_ansible_refactor_move-quoting-splitter", "condition": "nim_llama4_scout", "success": false, "eval_status": "skipped_no_output"}

@@ -1,0 +1,33 @@
+{
+  "total_results": 1404,
+  "total_successful": 1234,
+  "experiments": [
+    "exp1",
+    "exp2",
+    "exp6",
+    "exp4"
+  ],
+  "conditions": [
+    "c4_full",
+    "c1_direct",
+    "c2_rag",
+    "c5_memory",
+    "c3_multiagent",
+    "nim_llama4_scout",
+    "nim_gemma2_9b",
+    "nim_llama33",
+    "nim_llama4_maverick",
+    "nim_qwen",
+    "nim_devstral",
+    "nim_deepseek",
+    "a5_ctrl"
+  ],
+  "models": [
+    "qwen/qwen2.5-coder-32b-instruct",
+    "meta/llama-4-scout-17b-16e-instruct",
+    "meta/llama-3.3-70b-instruct",
+    "meta/llama-4-maverick-17b-128e-instruct",
+    "mistralai/devstral-2-123b-instruct-2512",
+    "deepseek-ai/deepseek-r1-distill-qwen-32b"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "total_tasks": 20,
+  "completed_evals": 20,
+  "successful_generations": 20,
+  "success_rate": 1.0,
+  "syntax_valid_rate": 0.0,
+  "syntax_valid_count": 0,
+  "syntax_total_checked": 20,
+  "avg_judge_score": 97.0,
+  "median_judge_score": 100.0,
+  "judge_pass_rate_70": 1.0,
+  "judge_pass_rate_80": 1.0
+}

@@ -1,0 +1,95 @@
+{
+  "friedman": {
+    "statistic": 11.081677704194222,
+    "p_value": 0.025661244278128863
+  },
+  "pairwise_wilcoxon": {
+    "c1_direct_vs_c2_rag": {
+      "wilcoxon_stat": 395.0,
+      "p_value": 0.33081794425460054,
+      "cliffs_delta": -0.0472
+    },
+    "c1_direct_vs_c3_multiagent": {
+      "wilcoxon_stat": 248.0,
+      "p_value": 0.008237890264910857,
+      "cliffs_delta": -0.1385
+    },
+    "c1_direct_vs_c4_full": {
+      "wilcoxon_stat": 293.0,
+      "p_value": 0.007397696114716381,
+      "cliffs_delta": -0.1372
+    },
+    "c1_direct_vs_c5_memory": {
+      "wilcoxon_stat": 221.0,
+      "p_value": 0.02579011695068723,
+      "cliffs_delta": -0.1855
+    },
+    "c2_rag_vs_c3_multiagent": {
+      "wilcoxon_stat": 364.5,
+      "p_value": 0.16266337397248254,
+      "cliffs_delta": -0.0946
+    },
+    "c2_rag_vs_c4_full": {
+      "wilcoxon_stat": 215.5,
+      "p_value": 0.07697365719894297,
+      "cliffs_delta": -0.0921
+    },
+    "c2_rag_vs_c5_memory": {
+      "wilcoxon_stat": 295.0,
+      "p_value": 0.25434545584447155,
+      "cliffs_delta": -0.1484
+    },
+    "c3_multiagent_vs_c4_full": {
+      "wilcoxon_stat": 211.0,
+      "p_value": 0.880999382233399,
+      "cliffs_delta": 0.0029
+    },
+    "c3_multiagent_vs_c5_memory": {
+      "wilcoxon_stat": 246.5,
+      "p_value": 0.9754770997822143,
+      "cliffs_delta": -0.0634
+    },
+    "c4_full_vs_c5_memory": {
+      "wilcoxon_stat": 230.5,
+      "p_value": 0.9655282629371886,
+      "cliffs_delta": -0.0645
+    }
+  },
+  "efficiency": {
+    "c1_direct": {
+      "median_judge_score": 100.0,
+      "mean_judge_score": 93.2,
+      "median_total_tokens": 557.0,
+      "median_latency_ms": 5902.163028717041,
+      "success_rate": 1.0
+    },
+    "c2_rag": {
+      "median_judge_score": 100.0,
+      "mean_judge_score": 94.08,
+      "median_total_tokens": 802.0,
+      "median_latency_ms": 7721.868634223938,
+      "success_rate": 1.0
+    },
+    "c3_multiagent": {
+      "median_judge_score": 100.0,
+      "mean_judge_score": 96.05,
+      "median_total_tokens": 2218.5,
+      "median_latency_ms": 19796.881794929504,
+      "success_rate": 1.0
+    },
+    "c4_full": {
+      "median_judge_score": 100.0,
+      "mean_judge_score": 96.85,
+      "median_total_tokens": 3498.0,
+      "median_latency_ms": 32734.99321937561,
+      "success_rate": 1.0
+    },
+    "c5_memory": {
+      "median_judge_score": 100.0,
+      "mean_judge_score": 93.15,
+      "median_total_tokens": 3994.0,
+      "median_latency_ms": 39359.09378528595,
+      "success_rate": 1.0
+    }
+  }
+}

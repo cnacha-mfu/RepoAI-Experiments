@@ -1,0 +1,36 @@
+% EXP-1: Condition Comparison (RefactorBench)
+\begin{table}[h]
+\centering
+\caption{Ablation results across experimental conditions on RefactorBench}
+\small
+\begin{tabular}{@{}lccccc@{}}
+\toprule
+\textbf{Condition} & \textbf{Success\%} & \textbf{Med. Score} & \textbf{Mean Score} & \textbf{Med. Tokens} & \textbf{Med. Time (s)} \\
+\midrule
+c1_direct & 100.0\% & 100.0 & 93.2 & 555 & 5.9 \\
+c2_rag & 100.0\% & 100.0 & 94.1 & 802 & 7.7 \\
+c3_multiagent & 100.0\% & 100.0 & 96.0 & 2202 & 19.8 \\
+c4_full & 100.0\% & 100.0 & 96.8 & 3499 & 32.7 \\
+c5_memory & 100.0\% & 100.0 & 93.2 & 3936 & 39.4 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% EXP-2: Model Comparison
+\begin{table}[h]
+\centering
+\caption{Multi-model comparison on RefactorBench}
+\small
+\begin{tabular}{@{}llccc@{}}
+\toprule
+\textbf{Model} & \textbf{Provider} & \textbf{Success\%} & \textbf{Med. Score} & \textbf{Mean Score} \\
+\midrule
+llama-4-scout-17b-16e-instruct & nim & 0.0\% & 0.0 & 0.0 \\
+qwen2.5-coder-32b-instruct & nim & 100.0\% & 100.0 & 96.0 \\
+llama-3.3-70b-instruct & nim & 35.0\% & 95.0 & 90.4 \\
+llama-4-maverick-17b-128e-instruct & nim & 100.0\% & 95.0 & 94.3 \\
+devstral-2-123b-instruct-2512 & nim & 100.0\% & 100.0 & 94.5 \\
+deepseek-r1-distill-qwen-32b & nim & 0.0\% & 0.0 & 0.0 \\
+\bottomrule
+\end{tabular}
+\end{table}

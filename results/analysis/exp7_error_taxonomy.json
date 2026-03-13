@@ -1,0 +1,40 @@
+{
+  "total_failures": 170,
+  "category_counts": {
+    "E9": 170
+  },
+  "by_condition": [
+    {
+      "condition": "nim_deepseek",
+      "error_category": "E9",
+      "count": 100
+    },
+    {
+      "condition": "nim_llama33",
+      "error_category": "E9",
+      "count": 65
+    },
+    {
+      "condition": "nim_llama4_scout",
+      "error_category": "E9",
+      "count": 5
+    }
+  ],
+  "by_model": [
+    {
+      "generator_model": "deepseek-ai/deepseek-r1-distill-qwen-32b",
+      "error_category": "E9",
+      "count": 100
+    },
+    {
+      "generator_model": "meta/llama-3.3-70b-instruct",
+      "error_category": "E9",
+      "count": 65
+    },
+    {
+      "generator_model": "meta/llama-4-scout-17b-16e-instruct",
+      "error_category": "E9",
+      "count": 5
+    }
+  ]
+}

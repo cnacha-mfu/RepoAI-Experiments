@@ -1,0 +1,34 @@
+{
+  "calibration": [
+    {
+      "bin": "0-20",
+      "n_tasks": 29,
+      "actual_success_rate": 1.0,
+      "mean_judge_score": 0.6896551724137931
+    },
+    {
+      "bin": "41-60",
+      "n_tasks": 2,
+      "actual_success_rate": 1.0,
+      "mean_judge_score": 60.0
+    },
+    {
+      "bin": "61-80",
+      "n_tasks": 33,
+      "actual_success_rate": 1.0,
+      "mean_judge_score": 80.0
+    },
+    {
+      "bin": "81-100",
+      "n_tasks": 1170,
+      "actual_success_rate": 1.0,
+      "mean_judge_score": 96.72905982905984
+    }
+  ],
+  "per_generator_bias": {
+    "kruskal_wallis": {
+      "statistic": 25.73921862405652,
+      "p_value": 1.0814876797083478e-05
+    }
+  }
+}
